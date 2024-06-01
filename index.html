@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekilas tentang komputer</title>
+    <link rel="stylesheet" href="page1.css">
+</head>
+<body>
+    <nav>
+        <img src="logopenus.png">
+        <h1>SEKILAS TENTANG SISTEM KOMPUTER</h1>
+        <div>
+            <img src="rpl.png">
+        </div>
+        <!-- <img src="penus.jpg"> -->
+    </nav>
+    <section class="main">
+        <h2>Pendaftaran Artikel :</h2>
+        <p><i>*Data Pribadi</i></p>
+    </section>
+<form>
+<!--<form action="action_page.php" -->
+ <div class="all">
+    <table border="2" >
+        <tr>
+            <td><label for="nama">Nama Lengkap</label></td>
+            <td>:</td>
+            <!-- untuk input text -->
+            <td><input type="text" name="nama" id="nama"></td>
+        </tr>
+        <tr>
+            <td><label for="kelas">kelas</label></td>
+            <td>:</td>
+            <td>
+            <select id="kelas">
+                <!--pilihan, didepan nama variabel-->
+                <option value="kelas"></option>
+                <option value="kelas">RPL 1</option>
+                <option value="kelas">RPL 2</option>
+                <option value="kelas">RPL 3</option>
+                <!-- <option value="Kalimantan">Kalimantan</option>
+                <option value="Bali">Bali</option>
+                <option value="Nusa Tenggara">Nusa Tenggara</option>
+                <option value="Irian Jaya">Irian Jaya</option> -->
+            </select>
+            <!-- <td><label for="NIK">Kelas</label></td>
+            <td>:</td>
+            <td><input type="number" name="NIK" id="NIK"></td> -->
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="lahir">Tempat Lahir</label></td>
+            <td>:</td>
+            <td><input type="text" name="lahir"></td>
+        </tr>
+        <tr>
+            <td><label for="date">Tanggal Lahir</label></td>
+            <td>:</td>
+            <!--input tanggal-->
+            <td><input type="date" name="date" id="date"></td>
+        </tr>
+        <!-- <tr><td><label for="provinsi">Asal Provinsi</label></td>
+            <td>:</td>
+            <td>
+                <select id="provinsi">
+                    pilihan, didepan nama variabel
+                    <option value="Jawa">Jawa</option>
+                    <option value="Sumatera">Sumatera</option>
+                    <option value="Sulawesi">Sulawesa</option>
+                    <option value="Kalimantan">Kalimantan</option>
+                    <option value="Bali">Bali</option>
+                    <option value="Nusa Tenggara">Nusa Tenggara</option>
+                    <option value="Irian Jaya">Irian Jaya</option>
+                </select>
+            </td>
+        </tr> -->
+        <!-- <tr>
+            <td><label for="asalsekolah">Asal Sekolah</label></td>
+            <td>:</td>
+            <td>
+                <input type="radio" name="asalsekolah" id="asalsekolah" value="MTS">
+                <label for="MTS">Madrasah Tsanawiyah (MTS)</label>
+                <input type="radio" name="asalsekolah" id="asalsekolah" value="SMP">
+                <label for="SMP">Sekolah Menengah Pertama (SMP)</label>
+            </td>
+        </tr> -->
+        <tr>
+            <td><label for="hp">Nomor Telepon</label></td>
+            <td>:</td>
+            <td><input type="tel" name="hp" id="hp" value="+62 "></td>
+        </tr>
+        <tr>
+            <td><label for="email">Alamat Email</label></td>
+            <td>:</td>
+            <td><input type="email" name="email" id="email"></td>
+        </tr>
+        <!-- <tr>
+            <td><label for="komp"><b>Kompetensi</b> yang dipilih</label></td>
+            <td>:</td>
+            <td>
+                <input type="checkbox" name="Kompetensi" id="komp1" value="RPL">
+                <label for="komp">RPL</label>
+                <input type="checkbox" name="Kompetensi" id="komp2" value="MM">
+                <label for="komp">MM</label>
+                <input type="checkbox" name="Kompetensi" id="komp3" value="SIJA">
+                <label for="komp">SIJA</label>
+                <input type="checkbox" name="Kompetensi" id="komp3" value="DKV">
+                <label for="komp">DKV</label>
+            </td>
+        </tr>
+        <tr>
+            <td>Alasan singkat mengikuti pelatihan</td>
+            <td>:</td>
+            <td><textarea style="width: 250; height: 100;"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="cv">Upload Dokumen CV</label></td>
+            <td>:</td>
+            <td><input type="file" name="CV" id="CV"></td>
+        </tr> -->
+    </table>
+    <section class="send">
+        <tr> 
+            <td>
+                <br>
+                <button type="submit" onclick="alert('Terima Kasih telah melakukan pendaftaran di WebSite Artikel PENUS.')"><a href="Page2/">Kirim</a></button>
+                <input class="reset" type="reset">
+            </td>
+        </tr>
+    </section>
+ </div>
+</form>
+</body>
+</html>

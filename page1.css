@@ -1,0 +1,59 @@
+body {
+    
+    /* background-image: url(cloud.jpg); */
+    background-size: cover;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    /* mengatur ketengah */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: bisque;
+    border-bottom: 2px black solid;
+    margin-bottom: 15px;
+}
+nav img {
+    width: 8%;
+}
+nav h1 {
+    margin-left: 25%;
+    width: 150%;
+}
+nav div img {
+    width: 55%;
+    margin-left: 30%;
+}
+.all table {
+    width: 20cm;
+    margin-left: 15px;
+}
+.send {
+    margin-left: 15px;
+    
+}
+.reset:hover {
+    color: blue;
+}
+button a {
+    text-decoration: none;
+    border-radius: 50%;
+    padding: 50px;
+}
+button a:hover {
+    color: rgb(246, 134, 5);
+}
+.main {
+    margin-left: 15px;
+}
+.main p {
+    margin-top: 1px;
+    margin-bottom: 15px;
+    color: gray;
+}
+.main h1 {
+    margin-bottom: 1px;
+}
